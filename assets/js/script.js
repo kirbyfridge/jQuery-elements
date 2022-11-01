@@ -21,7 +21,7 @@
     authorQuote.addClass('fancy');
 
 // TODO: Append the author element to the quote element
-    nameAuthor.append(authorQuote);
+    authorQuote.append(nameAuthor);
 
 // TODO: Append the quote element to the HTML element with an ID of `root` in `index.html`
-    authorQuote.append(divRoot);
+    divRoot.append(authorQuote);
